@@ -483,6 +483,12 @@ namespace GitCommands
             set => DetailedSettingsPath.SetBool("ShowSplitViewLayout", value);
         }
 
+        public static bool ShowSplitViewLayout2
+        {
+            get => DetailedSettingsPath.GetBool("ShowSplitViewLayout2", true);
+            set => DetailedSettingsPath.SetBool("ShowSplitViewLayout2", value);
+        }
+
         public static bool ProvideAutocompletion
         {
             get => GetBool("provideautocompletion", true);

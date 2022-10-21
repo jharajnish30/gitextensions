@@ -47,9 +47,21 @@ Submodule path 'Externals/Git.hub': checked out '3ebf19b8fc2ab8a24f54aab64921c88
 Submodule path 'Externals/ICSharpCode.TextEditor': checked out '467710117fe6a1df2e96791b51f550a04fccba74'
 Submodule path 'Externals/conemu-inside': checked out '6fcd3f5b757e4b49aed8843141f619f5bd38e49d'
 
-
 `git submodule update --init --recursive -- "Externals/conemu-inside"`
 Submodule path 'Externals/conemu-inside': checked out '6fcd3f5b757e4b49aed8843141f619f5bd38e49d'
 
+`4 complementary actions on conemu-insiders module - Main actions follows in next sections`
+bb8153c (HEAD -> rkjloc.3.5.4-ext-1) HEAD@{0}: checkout: moving from 6fcd3f5b757e4b49aed8843141f619f5bd38e49d to rkjloc.3.5.4-ext-1
+6fcd3f5 HEAD@{1}: checkout: moving from rkjloc.3.5.4-ext-1 to 6fcd3f5b757e4b49aed8843141f619f5bd38e49d
+bb8153c (HEAD -> rkjloc.3.5.4-ext-1) HEAD@{2}: commit: config items font, color added/modified
+77af8d6 (origin/master, origin/HEAD, master) HEAD@{3}: checkout: moving from 6fcd3f5b757e4b49aed8843141f619f5bd38e49d to rkjloc.3.5.4-ext-1
+
+`git commit --file="D:/WORKSPACE/Gitextensions/.git/COMMITMESSAGE"`
+[rkjloc.3.5.4 501f543c1] console, cmd, bash, powershell, git-bash integrated with configurable batch files
+ 5 files changed, 256 insertions(+), 287 deletions(-)
+ rewrite GitUI/CommandsDialogs/SettingsDialog/Pages/ConsoleStyleSettingsPage.Designer.cs (64%)
+ create mode 100644 rkj-git-commands.md
+`git submodule update --init --recursive -- "Externals/conemu-inside"`
+Submodule path 'Externals/conemu-inside': checked out '6fcd3f5b757e4b49aed8843141f619f5bd38e49d'
 
 
