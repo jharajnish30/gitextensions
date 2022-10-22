@@ -64,4 +64,25 @@ bb8153c (HEAD -> rkjloc.3.5.4-ext-1) HEAD@{2}: commit: config items font, color 
 `git submodule update --init --recursive -- "Externals/conemu-inside"`
 Submodule path 'Externals/conemu-inside': checked out '6fcd3f5b757e4b49aed8843141f619f5bd38e49d'
 
+`git commit --file="D:/WORKSPACE/Gitextensions/.git/COMMITMESSAGE"`
+[rkjloc.3.5.4 a9ae0d7e6] Bottom-right panel now collapsible, toolbar icon added to control it
+ 7 files changed, 67 insertions(+), 1 deletion(-)
+ create mode 100644 GitUI/Resources/Icons/LayoutFooter2.png
+
+`git push -u --recurse-submodules=check --progress "origin" refs/heads/rkjloc.rel.3.5:refs/heads/rkjloc.rel.3.5`
+Enumerating objects: 47, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (28/28), done.
+Writing objects: 100% (28/28), 5.81 KiB | 991.00 KiB/s, done.
+Total 28 (delta 24), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (24/24), completed with 19 local objects.
+remote:
+remote: Create a pull request for 'rkjloc.rel.3.5' on GitHub by visiting:
+remote:      https://github.com/jharajnish30/gitextensions/pull/new/rkjloc.rel.3.5
+remote:
+To https://github.com/jharajnish30/gitextensions
+ * [new branch]          rkjloc.rel.3.5 -> rkjloc.rel.3.5
+Branch 'rkjloc.rel.3.5' set up to track remote branch 'rkjloc.rel.3.5' from 'origin'.
+Done
 
